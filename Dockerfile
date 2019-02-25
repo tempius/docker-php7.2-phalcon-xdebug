@@ -5,7 +5,7 @@
 FROM php:7.2-alpine
 
 # PHP
-RUN pecl install redis-4.2.0; \
+RUN pecl install redis-4.1.1; \
     pecl install xdebug-2.6.1; \
     pecl install apcu-5.1.16; \
     pecl install psr-0.6.0; \
